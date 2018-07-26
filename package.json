@@ -1,0 +1,29 @@
+{
+    "name": "webpack-study",
+    "version": "1.0.0",
+    "description": "",
+    "main": "bundle.js",
+    "sideEffects": true,
+    "dependencies": {
+        "ansi-regex": "^2.0.0",
+        "has-flag": "^2.0.0",
+        "util": "^0.10.3"
+    },
+    "devDependencies": {
+        "babel-loader": "^7.1.5",
+        "html-loader": "^0.5.5",
+        "rollup": "^0.63.4",
+        "ts-loader": "^4.4.2",
+        "typescript": "^2.9.2",
+        "uglifyjs-webpack-plugin": "^1.2.7",
+        "webpack": "^4.16.1",
+        "webpack-cli": "^3.0.8"
+    },
+    "scripts": {
+        "test": "webpack",
+        "rollup": "rollup"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
