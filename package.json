@@ -21,7 +21,7 @@
     },
     "scripts": {
         "test": "webpack",
-        "rollup": "rollup"
+        "rollup": "rollup -c"
     },
     "keywords": [],
     "author": "",
